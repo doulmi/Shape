@@ -1,0 +1,30 @@
+﻿Build started 01/12/2014 21:27:07.
+     1>Project "R:\Programmation\C\Workspace\Shape\Shape\Shape.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Shape.unsuccessfulbuild".
+       ClCompile:
+         R:\Programmation\C\VS2012\VC\bin\CL.exe /c /I"R:\Programmation\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         R:\Programmation\C\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"R:\Programmation\C\Workspace\Shape\Debug\Shape.exe" /INCREMENTAL /NOLOGO /LIBPATH:"R:\Programmation\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"R:\Programmation\C\Workspace\Shape\Debug\Shape.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"R:\Programmation\C\Workspace\Shape\Debug\Shape.lib" /MACHINE:X86 Debug\Cercle.obj
+         Debug\CercleReaderChain.obj
+         Debug\GroupReaderChain.obj
+         Debug\PolygonReaderChain.obj
+         Debug\ShapeReader.obj
+         Debug\SegmentReaderChain.obj
+         Debug\SocketClient.obj
+         Debug\Group.obj
+         Debug\main.obj
+         Debug\Polygon2D.obj
+         Debug\Vec2.obj
+         Debug\Segment.obj
+         Debug\SendByTCPVisitor.obj
+         Shape.vcxproj -> R:\Programmation\C\Workspace\Shape\Debug\Shape.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Shape.unsuccessfulbuild".
+         Touching "Debug\Shape.lastbuildstate".
+     1>Done Building Project "R:\Programmation\C\Workspace\Shape\Shape\Shape.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.17

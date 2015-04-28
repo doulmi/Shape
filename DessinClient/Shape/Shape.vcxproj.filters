@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{1b6e738c-77c7-49c4-9c71-10cfc0293677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\visitor">
+      <UniqueIdentifier>{70960e81-8709-4d85-b8f6-dfa8596ba595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\visitor">
+      <UniqueIdentifier>{c8c49b3f-1668-4a0d-98f7-f28e8f8cbf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{f6c495dc-cb96-49da-8c97-2747903d971d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\io">
+      <UniqueIdentifier>{6300d432-0027-44bf-ace8-c2b4fcbc2239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\io">
+      <UniqueIdentifier>{84c85a6f-76b7-46eb-9f75-6e0f5fad22db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Color.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Vec2.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MathUtil.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Cercle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="visitor\ShapeVisitor.h">
+      <Filter>头文件\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="visitor\SendByTCPVisitor.h">
+      <Filter>头文件\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ShapeWriter.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ShapeReaderChain.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ShapeReader.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\SegmentReaderChain.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\CercleReaderChain.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\GroupReaderChain.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\PolygonReaderChain.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\NoCopyable.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Segment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cercle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="visitor\SendByTCPVisitor.cpp">
+      <Filter>源文件\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Vec2.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\ShapeReader.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\SegmentReaderChain.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\CercleReaderChain.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\GroupReaderChain.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\PolygonReaderChain.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
